@@ -1,4 +1,4 @@
-# Sample Go Web Server
+# Sample Go/Web Server
 
 A simple Go web server demonstrating basic HTTP routing, middleware, and graceful shutdown using Gorilla Mux and Logrus.
 
