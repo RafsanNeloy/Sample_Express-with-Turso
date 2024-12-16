@@ -1,2 +1,2 @@
-# Sample_Express-with-Turso
-Simple to-do app in Node.js using Turso and Drizzle.
+# a Go application with high performance and portability.
+simple application using Go.
