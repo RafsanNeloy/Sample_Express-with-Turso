@@ -11,7 +11,7 @@ A simple Go web server demonstrating basic HTTP routing, middleware, and gracefu
 1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).  
 2. **Create the Workspace**:  
    ```bash  
-   daytona create <SAMPLE_REPO_URL> 
+   daytona create <https://github.com/RafsanNeloy/go_Application.git> 
    ```  
 3. **Install Dependencies**:  
    ```bash
