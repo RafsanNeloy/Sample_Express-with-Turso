@@ -53,12 +53,20 @@ A simple Go web server demonstrating basic HTTP routing, middleware, and gracefu
 1. **Plain Text Endpoint**:
    - Set method to `GET`
    - Enter URL: `http://localhost:8080/`
-   - Expected Response: Plain text "Hello, World!"
+   - Expected Response:
+```
+  Hello, World!
+```
 
 2. **JSON Endpoint**:
    - Set method to `GET`
    - Enter URL: `http://localhost:8080/json`
-   - Expected Response: JSON object with "message" key
+   - Expected Response:
+```json
+  {
+    "message": "Hello, JSON World!"
+  }
+  ```
 
 
 ## 📡 Endpoints
