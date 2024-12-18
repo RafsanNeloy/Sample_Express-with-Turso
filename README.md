@@ -48,6 +48,17 @@ A simple Go web server demonstrating basic HTTP routing, middleware, and gracefu
 - [Logrus](https://github.com/sirupsen/logrus): Structured logging
 
 ---
+### Example Curl Commands
+
+```bash
+# Plain Text Endpoint
+curl http://localhost:8080/
+
+# JSON Endpoint
+curl http://localhost:8080/json
+```
+
+---
 
 ## 📡 Endpoints
 
