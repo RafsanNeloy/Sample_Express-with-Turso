@@ -4,6 +4,7 @@
   "forwardPorts": [
     8080
   ],
-  "postStartCommand": "apt-get update && apt-get install -y sudo",
-  "postCreateCommand": "go mod tidy"
+  "initializeCommand": "mkdir -p ${localWorkspaceFolder}",
+  "postCreateCommand": "cd /workspaces/go_Application && go mod tidy",
+  "remoteUser": "root"
 }
