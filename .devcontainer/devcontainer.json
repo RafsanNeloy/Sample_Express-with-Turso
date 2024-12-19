@@ -4,7 +4,8 @@
   "forwardPorts": [
     8080
   ],
-  "initializeCommand": "mkdir -p ${localWorkspaceFolder}",
-  "postCreateCommand": "cd /workspaces/go_Application && go mod tidy",
-  "remoteUser": "root"
+  "postCreateCommand": "go mod tidy",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/go_Application,type=bind,consistency=cached",
+  "workspaceFolder": "/workspaces/go_Application",
+  "remoteUser": "vscode"
 }
